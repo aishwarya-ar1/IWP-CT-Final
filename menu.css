@@ -1,0 +1,68 @@
+body{
+    font-family : Arial, sans-serif;
+    width: 100%;
+    background: #F0F0F0;
+  }
+  .panel {
+    margin-bottom: 21px;
+    background-color: #fff;
+    border: 0 none;
+  }
+  
+  .panel-image-preview {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  
+  .panel-heading ~ .panel-image img.panel-image-preview {
+    border-radius: 0px;
+  }
+  .panel-body {
+    overflow: hidden;
+  }
+  .panel-image {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .myImg {
+      position: relative;
+          border: 0 none;
+          box-shadow: none;
+          margin:0;
+          padding:0;
+  }
+  .caption {
+      width: inherit;
+      bottom: 1rem;
+      position: absolute;
+      text-align: right;
+      float: right;
+      right: 10px;
+  }
+  
+  .fontz-text {
+    font-size: 28px;
+  }
+  .glow {
+    color: #fff;
+    text-shadow:3px 1px 0px #000000
+  }
+  .no-span {
+    display: table;
+    white-space: nowrap;
+  }
+  .no-span:before,
+  .no-span:after {
+    border-top: 1px solid green;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.5em;
+    width: 45%;
+  }
+  .no-span:before {
+    right: 1.5%;
+  }
+  .no-span:after {
+    left: 1.5%;
+  }
